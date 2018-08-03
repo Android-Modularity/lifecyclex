@@ -1,16 +1,4 @@
-apply plugin: 'com.android.library'
-
-
 def libs = rootProject.ext.libs
-def version = rootProject.ext.version
-
-android {
-    compileSdkVersion version.compileSdkVersion
-    defaultConfig {
-        minSdkVersion version.minSdkVersion
-    }
-}
-
 dependencies {
     api "com.android.support:support-fragment:27.1.1"
     compileOnly libs.appcompat_v7
