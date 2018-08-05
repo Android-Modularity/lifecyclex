@@ -1,5 +1,5 @@
 def libs = rootProject.ext.libs
 dependencies {
-    compileOnly libs.appcompat_v7
-    api "com.android.support:support-fragment:27.1.1"
+    implementation libs.appcompat_v7
+    compileOnly "com.android.support:support-fragment:27.1.1"
 }
